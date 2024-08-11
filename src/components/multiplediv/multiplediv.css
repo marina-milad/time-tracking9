@@ -1,0 +1,14 @@
+#multible{
+    width: 75%;
+    height: 100%;
+    margin-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 376px){
+    #multible{
+        width: 95%;
+        margin: 0;
+        height:auto;
+    }
+}

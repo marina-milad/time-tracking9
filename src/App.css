@@ -1,0 +1,14 @@
+#main{
+    height:350px;
+    width: 765px;
+    display: flex;
+    flex-direction:row ;
+    background-color: hsl(226, 43%, 10%);
+}
+@media screen and (max-width: 376px){
+#main{
+    flex-direction: column;
+    height: 95%;
+    width: 350px;
+}
+}

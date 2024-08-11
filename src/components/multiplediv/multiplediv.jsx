@@ -6,8 +6,9 @@ import  Studyimg from "../../assets/icon-study.svg"
 import Exerciseimg from "../../assets/icon-exercise.svg"
 import Socialimg from "../../assets/icon-social.svg"
 import Selfcareimg from "../../assets/icon-self-care.svg"
+import { useEffect, useState } from "react"
 function  multiplediv  (){
-const arrayofobject =[{"uniqueid":1,
+const [arrayofobject,setarrayofobject]=useState ([{"uniqueid":1,
     "Sigmentname":"work",
     "sigmenthead": "32hrs",
     "sigmentlabel":"last week-36hrs",
@@ -29,7 +30,7 @@ const arrayofobject =[{"uniqueid":1,
     "Sigmentname":"Exercise",
         "sigmenthead": "4hrs",
         "sigmentlabel":"last week-5hrs",
-        "sigmentimg":Exerciseimg,
+        "sigmentimg": Exerciseimg,
         "sigmentcolor":" hsl(145, 58%, 55%)"},
         {"uniqueid":5,
             "Sigmentname":"Social",
@@ -43,8 +44,8 @@ const arrayofobject =[{"uniqueid":1,
     "sigmenthead": "2hrs",
     "sigmentlabel":"last week-2hrs",
     "sigmentimg":Selfcareimg,
-    "sigmentcolor":" hsl(43, 84%, 65%)"
-        }];
+    "sigmentcolor":"hsl(43, 84%, 65%)"
+        }]);
     return (
         <div id="multible">
         {arrayofobject.map((item) => {

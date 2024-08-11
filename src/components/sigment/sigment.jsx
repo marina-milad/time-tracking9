@@ -4,9 +4,10 @@ function sigment (props){
 
     return (
         <div className="sigment"
-        style={{ backgroundColor:props.sigmentcolor
-        ,backgroundImage:'url(${props.sigmentimg})'
-        ,backgroundRepeat:"repeat"}}>
+        style={{backgroundColor:props.sigmentcolor
+        ,backgroundImage:`url(${props.sigmentimg})`
+        ,backgroundRepeat:"no-repeat",backgroundPosition:"top right",
+        backgroundSize:"50px"}}>
             <div id="minisigment">
             <div id="topdiv">
     <label id="namelabel">{props.Sigmentname} </label>

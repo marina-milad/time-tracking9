@@ -1,11 +1,11 @@
 import "./multiplediv.css"
 import Sigment from "../sigment/sigment"
-import Workimg from "../../assets/icon-work.svg"
-import Playimg from "../../assets/icon-play.svg"
-import  Studyimg from "../../assets/icon-study.svg"
-import Exerciseimg from "../../assets/icon-exercise.svg"
-import Socialimg from "../../assets/icon-social.svg"
-import Selfcareimg from "../../assets/icon-self-care.svg"
+import Workimg from "/assets/icon-work.svg"
+import Playimg from "/assets/icon-play.svg"
+import  Studyimg from "/assets/icon-study.svg"
+import Exerciseimg from "/assets/icon-exercise.svg"
+import Socialimg from "/assets/icon-social.svg"
+import Selfcareimg from "/assets/icon-self-care.svg"
 import { useEffect, useState } from "react"
 function  multiplediv  (){
 const [arrayofobject,setarrayofobject]=useState ([{"uniqueid":1,

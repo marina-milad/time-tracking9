@@ -8,7 +8,7 @@ import Socialimg from "/assets/icon-social.svg"
 import Selfcareimg from "/assets/icon-self-care.svg"
 import { useEffect, useState } from "react"
 function  multiplediv  (){
-const [arrayofobject,setarrayofobject]=useState ([{"uniqueid":1,
+const [arrayofobject,setarrayofobject]=useState([{"uniqueid":1,
     "Sigmentname":"work",
     "sigmenthead": "32hrs",
     "sigmentlabel":"last week-36hrs",
